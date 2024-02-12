@@ -16,11 +16,8 @@ from tensorflow.keras import layers, preprocessing #
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras.callbacks import EarlyStopping
 
-from sklearn.model_selection import train_test_split, GridSearchCV
-
 import streamlit as st #
 import os #
-import tensorflow_hub as hub #
 
 import os
 import tensorflow as tf
@@ -28,7 +25,6 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.inception_v3 import preprocess_input
-import tensorflow_hub as hub
 
 st.header("Image class predictor")
 
