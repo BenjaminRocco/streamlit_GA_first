@@ -40,7 +40,7 @@ def main():
         st.pyplot(figure)
                  
 def predict_class(image):
-    classifier_model = tf.keras.models.load_model(r'../code_ben/model_ben_kaggle.h5')
+    classifier_model = tf.keras.models.load_model(r'../my_model.h5')
     shape = ((128, 128, 3))
     # model = tf.keras.Sequential([hub.KerasLayer(classifier_model, input_shape=shape)])
     test_image = image.resize((128, 128))
