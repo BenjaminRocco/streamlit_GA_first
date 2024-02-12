@@ -6,8 +6,8 @@ import numpy as np
 from tensorflow import keras
 import tensorflow as tf
 from PIL import Image
-import glob
-import random
+# import glob
+# import random
 import pandas as pd
 
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Input, AveragePooling2D
