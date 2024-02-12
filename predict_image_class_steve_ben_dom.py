@@ -29,7 +29,7 @@ from tensorflow.keras.applications.inception_v3 import preprocess_input
 st.header("Image class predictor")
 
 def main():
-    file_uploaded = st.file_uploader("Choose file", type = ['.jpg'])
+    file_uploaded = st.file_uploader("Choose file", type = ['.jpg','.jpeg','.png'])
     if file_uploaded is not None:
         image = Image.open(file_uploaded)
         figure = plt.figure()
