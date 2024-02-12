@@ -56,7 +56,7 @@ def predict_class(image):
     inverted_predictions_flat = 1 - binary_predictions.ravel().astype(int)
 
     # Determine the class based on the inverted binary prediction
-    image_class = "hotdog" if inverted_predictions_flat == 0 else "not a hotdog"
+    image_class = "a hotdog" if inverted_predictions_flat == 0 else "not a hotdog"
 
     result = "The image uploaded is {}".format(image_class)
     return result
