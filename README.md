@@ -1,4 +1,4 @@
-# Hackathon 2/Project 4: Hotdog or Not Hotdog
+# Hackathon 2: Hotdog or Not Hotdog
 
 ## The Team: Group 2
 
