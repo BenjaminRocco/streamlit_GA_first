@@ -1,5 +1,7 @@
 # Hackathon 2: Hotdog or Not Hotdog
 
+Please note: All project work was completed in one $8$ hour work-day!
+
 ## The Team: Group 2
 
 Ben Moss: Initial Model Setup, Repo Management, Transfer Learning
