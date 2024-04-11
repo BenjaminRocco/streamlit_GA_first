@@ -1,4 +1,4 @@
-# Hackathon 2: Hotdog or Not Hotdog
+# Hackathon: Hotdog or Not Hotdog
 
 Please note: All project work was completed in one $8$ hour work-day!
 
